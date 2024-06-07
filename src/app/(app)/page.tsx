@@ -1,8 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 import { Mail } from 'lucide-react'; // Assuming you have an icon for messages
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
@@ -55,6 +52,7 @@ export default function Home() {
       <footer className="text-center p-4 md:p-6 bg-gray-900 text-white">
         © 2023 True Feedback. All rights reserved.
       </footer>
+      {/* TODO: RENDER A SHADCN COMPONENT HERE */}
     </>
   );
 }
